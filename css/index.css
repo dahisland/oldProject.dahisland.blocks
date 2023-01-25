@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "balham";
+  src:url(../rsc/Balham.eot);
+  src: local('x'),
+       url(../rsc/Balham.ttf) format('TrueType');
+}
+
+body {margin:0px; padding:0px; width: 1024px; height: 1024px; margin :0 auto;color:#3C4973;font-size:12px; background-color:#f6faf8; position:relative; font-family:"balham", Verdana, Geneva, sans-serif;}
+
+
+#contenu{ width : 610px; margin:0 auto; padding:0; position: relative; top:20px;}
+#logo {width:610px; height:147px; position : absolute; top:0px; left:0px;}
+
+/*Menu*/
+
+#hg { width : 300px; height:200px; margin:0 ; padding:0; position: absolute; top:220px; left:0px; z-index:100; opacity:1;}
+#hd { width : 300px; height:200px; margin:0 ; padding:0; position: absolute; top:220px; left:310px; z-index:100; opacity:1; overflow:hidden; }
+#bg { width : 300px; height:95px; margin:0 ; padding:0; position: absolute; top:440px; left:0px; z-index:100;opacity:1;}
+#bd { width : 300px; height:95px; margin:0 ; padding:0; position: absolute; top:440px; left:310px; z-index:100; opacity:1;}
+
+.illu {width:300px; height:200px;}
+.anim{width:300px; height:200px;}
+.xtras{width:300px; height:95px;}
+#mail {width:300px; height:95px;}
+
+/*Galerie Illustration*/
+#wowslider-container1 {position:absolute ; top:220px; left:0px; width:0px; height:0px; opacity:0; z-index:0;}
+
+/*Lecteur video*/
+#iframe {position:absolute; top:220px; right:0px;width:0px; height:0px; opacity:0; z-index:0;}                
+
+/*Contenu extras*/
+#contenux {width:0px; height:0px; position:absolute; top:220px; left:0px;width:0px; height:0px; opacity:0; z-index:0; background-image:url(../rsc/bckgd_xtra.jpg);color:#f6faf8;font-size:14px;font-family:"balham", Verdana, Geneva, sans-serif; padding:20px;} 
+
+#contenux a{text-decoration:none;color:#739901; font-size:12px;}
+#contenux a:hover{text-decoration:underline;color:#5a6341;}   
+   
+p#presentation {margin :0; padding:20px;text-align:left;}
+p#aventure {margin :0 ;text-align:left;color:#739901; }  
+ul#liens {list-style:none; width:590px; margin:0 auto; padding:0; text-align:center;} 
+ul#liens li {float:left; padding:5px;text-align:left;}  
+
+#footer {width:600px; margin:0 auto; position:absolute; top:600px;} 
+#footer p {text-align: center; font-size:11px;font-family:"balham", Verdana, Geneva, sans-serif; color:#739901;}      
+#footer a {text-decoration:none; font-size:10px;font-family:"balham", Verdana, Geneva, sans-serif; color:#739901;}      
+#footer a:hover {text-decoration:underline;}      
+
+
